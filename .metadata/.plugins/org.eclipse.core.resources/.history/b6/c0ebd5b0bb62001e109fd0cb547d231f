@@ -1,0 +1,15 @@
+package impclass;
+
+public class I001_StringDemo {
+	public static void main(String[] args) {
+		
+		
+		String str = "tops";
+		
+		String str1 = new String("tech");
+		
+		System.out.println(str+" "+str1);
+		
+		
+	}
+}

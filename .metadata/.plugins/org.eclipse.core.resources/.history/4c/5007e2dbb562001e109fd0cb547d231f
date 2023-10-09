@@ -1,0 +1,25 @@
+package oops;
+
+interface Inter
+{
+	public void display();
+	
+}
+
+class InterImpl implements Inter
+{
+
+	@Override
+	public void display() {
+		System.out.println("running display");
+	}
+	
+}
+
+public class O002_InterfaceDemo {
+	public static void main(String[] args) {
+		
+		InterImpl i = new InterImpl();
+		i.display();
+	}
+}
