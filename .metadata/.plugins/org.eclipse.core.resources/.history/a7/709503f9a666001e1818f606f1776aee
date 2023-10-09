@@ -8,10 +8,10 @@ public class F001_OutStreamDemo {
 	public static void main(String[] args) {
 		
 		
-		FileOutputStream fos=null;
+		
 		try 
 		{
-			 fos = new FileOutputStream("C:\\Chintan_work\\Files\\data.txt");
+			FileOutputStream fos = new FileOutputStream("C:\\Chintan_work\\Files\\data.txt");
 			System.out.println("File created...");
 			String str = "This is my first iop program";
 			byte b[] = str.getBytes();
@@ -22,15 +22,7 @@ public class F001_OutStreamDemo {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		finally
-		{
-			try {
-				fos.close();
-			} catch (IOException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
+		
 		
 		
 	}
