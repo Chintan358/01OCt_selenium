@@ -51,7 +51,14 @@ FileInputStrem
 FileoutputStream
 
 
+***********************
 
+Thread : thead is light weight process
+
+Thread class
+Runneble interface
+
+start---runnable--run--dead
 
 
 
