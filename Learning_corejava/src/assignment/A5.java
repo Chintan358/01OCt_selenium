@@ -15,7 +15,6 @@ public class A5 {
 			int rem = num%10;
 			sum = sum +(rem*rem*rem*rem);
 			num = num/10;
-			
 		}
 		
 		if(temp==sum)
