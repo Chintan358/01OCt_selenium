@@ -18,9 +18,6 @@ public class B006_Tagname {
 		for(WebElement link : links)
 		{
 			System.out.println(link.getText());
-		}
-		
-		
-		
+		}	
 	}
 }
