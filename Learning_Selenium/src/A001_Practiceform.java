@@ -1,6 +1,7 @@
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -13,7 +14,9 @@ public class A001_Practiceform {
 	public static void main(String[] args) {
 		
 		WebDriver driver = DriverConnection.connect("https://demoqa.com/automation-practice-form");
+		JavascriptExecutor js = (JavascriptExecutor) driver;
 		
+		 js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
 		String myDate = "28";
 		String myYear="2021";
 		String myMonth="March";
