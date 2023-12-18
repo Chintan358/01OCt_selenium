@@ -7,26 +7,20 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcellReader {
 	
-	public static void main(String[] args) {
-		ExcellReader rd = new ExcellReader();
-		int row =  rd.rowCount();
-		System.out.println("rows : "+row);
-		int col = rd.colCount();
-		System.out.println("Cols : "+col);
-		
-		for(int i=1;i<row;i++)
-		{
-			for(int j=0;j<col;j++)
-			{
-				String data = rd.getData(i, j);
-				System.out.println(data);
-			}
-		}
+	
+	
+	String filePath;
+	String sheetName;
+	
+	
+	
+	
+	public ExcellReader(String filePath, String sheetName) {
+		super();
+		this.filePath = filePath;
+		this.sheetName = sheetName;
 	}
-	
-	String filePath = "C:\\Users\\pc\\Desktop\\Test\\mytest.xlsx";
-	String sheetName = "login";
-	
+
 	public int rowCount()
 	{
 		int row = 0;
