@@ -33,7 +33,7 @@ public class Datadriven {
 	@DataProvider(name = "dp")
 	public Object[][] getData() {
 
-		ExcellReader rd = new ExcellReader("C:\\Users\\pc\\Desktop\\Test\\test.xlsx", "test");
+		ExcellReader rd = new ExcellReader("C:\\Users\\pc\\Desktop\\Test\\test.xlsx", "login");
 		int rows = rd.rowCount();
 		int cols = rd.colCount();
 		System.out.println(rows+" "+cols);

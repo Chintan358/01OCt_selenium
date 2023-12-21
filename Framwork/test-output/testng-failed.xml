@@ -3,12 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.Datadriven">
+      <class name="com.HybridFramwork">
         <methods>
-          <include name="setup"/>
-          <include name="login"/>
+          <include name="test" invocation-numbers="2 3 4"/>
         </methods>
-      </class> <!-- com.Datadriven -->
+      </class> <!-- com.HybridFramwork -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
