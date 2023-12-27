@@ -3,12 +3,8 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.AccountTest">
-      <methods>
-      <include name="loanAccount"></include>
-      </methods>
-      </class>
-      <class name="com.PaymentTest"/>
+      
+      <class name="com.ParameterDemo_Multi"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

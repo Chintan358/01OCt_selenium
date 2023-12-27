@@ -1,0 +1,9 @@
+19:20:00.628 [main] INFO  com.MyTest - This is info msg
+19:20:00.636 [main] ERROR com.MyTest - this is err msg
+19:20:40.003 [main] INFO  com.MyTest - This is info msg
+19:20:40.013 [main] ERROR com.MyTest - this is err msg
+19:20:43.618 [main] INFO  com.MyTest - This is info msg
+19:20:43.631 [main] ERROR com.MyTest - this is err msg
+19:20:52.109 [main] INFO  com.MyTest - This is info msg
+19:20:52.125 [main] ERROR com.MyTest - this is err msg
+19:21:03.541 [main] INFO  com.MyTest - This is info msg
