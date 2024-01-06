@@ -1,14 +1,19 @@
 package com;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+
+import com.google.common.io.Files;
 
 public class Base {
 	
@@ -38,4 +43,22 @@ public class Base {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 		return driver;
 	}
+	
+	public void getScreenShot(WebDriver driver, String imgname)
+	{
+		
+		TakesScreenshot ts = (TakesScreenshot) driver;
+		File source =  ts.getScreenshotAs(OutputType.FILE); 
+		File dest = new File("C:\\Chintan_work\\Files\\"+imgname+"");
+		
+		
+		try {
+			Files.copy(source, dest);
+			System.out.println("Screenshot taken");
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
 }

@@ -5,7 +5,7 @@
     <classes>
       <class name="com.Day1">
         <methods>
-          <include name="loginCheck"/>
+          <include name="loginCheck" invocation-numbers="1"/>
         </methods>
       </class> <!-- com.Day1 -->
     </classes>

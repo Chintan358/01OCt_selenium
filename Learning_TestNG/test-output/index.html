@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Suite" class="navigator-link">
-              <span class="suite-name border-passed">Suite</span>
+              <span class="suite-name border-failed">Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Chintan_work\java\01oct_selenium\Learning_TestNG\crossbrowser.xml</span>
+                    <span>C:\Chintan_work\java\01oct_selenium\Learning_TestNG\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>0 groups</span>
+                    <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">9 methods, 1 failed,   8 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods failed suite-Suite"> (hide)</a> <!-- hide-methods failed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Payment" class="method navigator-link" hash-for-method="debitCard">debitCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,12 +117,42 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="basic.CrossBrowser" class="method navigator-link" hash-for-method="login(test@gmail.com, test, chrome)">login(test@gmail.com, test, chrome)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.Payment" class="method navigator-link" hash-for-method="cod">cod</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="basic.CrossBrowser" class="method navigator-link" hash-for-method="login(test@gmail.com, test, ff)">login(test@gmail.com, test, ff)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.Payment" class="method navigator-link" hash-for-method="creditCard">creditCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Payment" class="method navigator-link" hash-for-method="creditCard">creditCard</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Account" class="method navigator-link" hash-for-method="currentAccout">currentAccout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Account" class="method navigator-link" hash-for-method="currentAccout">currentAccout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Account" class="method navigator-link" hash-for-method="loanAccount">loanAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Account" class="method navigator-link" hash-for-method="loanAccount">loanAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="com.Account" class="method navigator-link" hash-for-method="savingAccount">savingAccount</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -123,26 +167,94 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Suite" class="panel Suite">
-          <div class="suite-Suite-class-passed">
+          <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">basic.CrossBrowser</span>
+              <img src="failed.png"/>
+              <span class="class-name">com.Payment</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="login(test@gmail.com, test, chrome)">
-                  </a> <!-- login(test@gmail.com, test, chrome) -->
-                  <span class="method-name">login</span>
-                  <span class="parameters">(test@gmail.com,test,chrome)</span>
+                  <a name="debitCard">
+                  </a> <!-- debitCard -->
+                  <span class="method-name">debitCard</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.Payment.debitCard(Payment.java:19)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-failed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Account</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="currentAccout">
+                  </a> <!-- currentAccout -->
+                  <span class="method-name">currentAccout</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="login(test@gmail.com, test, ff)">
-                  </a> <!-- login(test@gmail.com, test, ff) -->
-                  <span class="method-name">login</span>
-                  <span class="parameters">(test@gmail.com,test,ff)</span>
+                  <a name="currentAccout">
+                  </a> <!-- currentAccout -->
+                  <span class="method-name">currentAccout</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loanAccount">
+                  </a> <!-- loanAccount -->
+                  <span class="method-name">loanAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loanAccount">
+                  </a> <!-- loanAccount -->
+                  <span class="method-name">loanAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="savingAccount">
+                  </a> <!-- savingAccount -->
+                  <span class="method-name">savingAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.Payment</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="cod">
+                  </a> <!-- cod -->
+                  <span class="method-name">cod</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="creditCard">
+                  </a> <!-- creditCard -->
+                  <span class="method-name">creditCard</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="creditCard">
+                  </a> <!-- creditCard -->
+                  <span class="method-name">creditCard</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -150,7 +262,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Chintan_work\java\01oct_selenium\Learning_TestNG\crossbrowser.xml</span>
+            <span class="header-content">C:\Chintan_work\java\01oct_selenium\Learning_TestNG\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -158,19 +270,23 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test1&quot;&gt;
-    &lt;parameter name=&quot;password&quot; value=&quot;test&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
-    &lt;parameter name=&quot;username&quot; value=&quot;test@gmail.com&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;basic.CrossBrowser&quot;/&gt;
+      &lt;class name=&quot;com.Payment&quot;/&gt;
+      &lt;class name=&quot;com.Account&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;savingAccount&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.Account --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test1 --&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test2&quot;&gt;
-    &lt;parameter name=&quot;password&quot; value=&quot;test&quot;/&gt;
-    &lt;parameter name=&quot;browser&quot; value=&quot;ff&quot;/&gt;
-    &lt;parameter name=&quot;username&quot; value=&quot;test@gmail.com&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;basic.CrossBrowser&quot;/&gt;
+      &lt;class name=&quot;com.Payment&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;creditCard&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.Payment --&gt;
+      &lt;class name=&quot;com.Account&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test2 --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -184,10 +300,10 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test1 (1 class)</span>
+                <span class="test-name">Test1 (2 classes)</span>
               </li>
               <li>
-                <span class="test-name">Test2 (1 class)</span>
+                <span class="test-name">Test2 (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -197,6 +313,34 @@
             <span class="header-content">Groups for Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">sanity</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">currentAccout</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">debitCard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">smoke</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">creditCard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">debitCard</span>
+                <br/>
+              </div> <!-- method-in-group -->
+              <div class="method-in-group">
+                <span class="method-in-group-name">loanAccount</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Suite" class="panel">
@@ -213,20 +357,48 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(9);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'login')
-data.setCell(0, 2, 'basic.CrossBrowser')
-data.setCell(0, 3, 13549);
+data.setCell(0, 1, 'cod')
+data.setCell(0, 2, 'com.Payment')
+data.setCell(0, 3, 34);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'login')
-data.setCell(1, 2, 'basic.CrossBrowser')
-data.setCell(1, 3, 6782);
+data.setCell(1, 1, 'debitCard')
+data.setCell(1, 2, 'com.Payment')
+data.setCell(1, 3, 30);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'loanAccount')
+data.setCell(2, 2, 'com.Account')
+data.setCell(2, 3, 5);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'currentAccout')
+data.setCell(3, 2, 'com.Account')
+data.setCell(3, 3, 5);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'creditCard')
+data.setCell(4, 2, 'com.Payment')
+data.setCell(4, 3, 5);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'creditCard')
+data.setCell(5, 2, 'com.Payment')
+data.setCell(5, 3, 4);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'loanAccount')
+data.setCell(6, 2, 'com.Account')
+data.setCell(6, 3, 3);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'currentAccout')
+data.setCell(7, 2, 'com.Account')
+data.setCell(7, 3, 2);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'savingAccount')
+data.setCell(8, 2, 'com.Account')
+data.setCell(8, 3, 2);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 90 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -241,9 +413,25 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.Payment</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">debitCard</span>
+                <br/>
+                <span class="ignored-method-name">cod</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.Account</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">savingAccount</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -252,14 +440,53 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">basic.CrossBrowser</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.Payment</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">login(test@gmail.com, test, chrome)</span>
+                <span class="method-name">cod</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
-                <span class="method-name">login(test@gmail.com, test, ff)</span>
-                <span class="method-start">7030 ms</span>
+                <span class="method-name">creditCard</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">debitCard</span>
+                <span class="method-start">80 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Account</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">currentAccout</span>
+                <span class="method-start">193 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loanAccount</span>
+                <span class="method-start">206 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Payment</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">creditCard</span>
+                <span class="method-start">377 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Account</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">currentAccout</span>
+                <span class="method-start">387 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loanAccount</span>
+                <span class="method-start">403 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">savingAccount</span>
+                <span class="method-start">415 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

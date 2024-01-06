@@ -1,42 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-03T19:18:44 IST" name="Default suite" finished-at="2024-01-03T19:19:03 IST" duration-ms="19556">
+  <suite started-at="2024-01-05T19:05:51 IST" name="Suite" finished-at="2024-01-05T19:07:04 IST" duration-ms="72949">
     <groups>
     </groups>
-    <test started-at="2024-01-03T19:18:44 IST" name="Default test" finished-at="2024-01-03T19:19:03 IST" duration-ms="19556">
+    <test started-at="2024-01-05T19:05:51 IST" name="Test" finished-at="2024-01-05T19:07:04 IST" duration-ms="72949">
       <class name="com.Day1">
-        <test-method signature="loginCheck()[pri:0, instance:com.Day1@79924b]" started-at="2024-01-03T19:18:44 IST" name="loginCheck" finished-at="2024-01-03T19:19:03 IST" duration-ms="19387" status="FAIL">
-          <exception class="org.openqa.selenium.UnhandledAlertException">
+        <test-method signature="loginCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.Day1@5158b42f]" started-at="2024-01-05T19:05:51 IST" name="loginCheck" data-provider="dp" finished-at="2024-01-05T19:06:10 IST" duration-ms="19369" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr546405]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sanEpYv]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Guru99 Bank Manager HomePage]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ebd319f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCheck -->
+        <test-method signature="loginCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.Day1@5158b42f]" started-at="2024-01-05T19:06:10 IST" name="loginCheck" data-provider="dp" finished-at="2024-01-05T19:06:27 IST" duration-ms="17251" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mngr546405]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sanEpYvddd]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Guru99 Bank Home Page1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ebd319f]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[Dismissed user prompt dialog: User or Password is not valid: 
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [c072b2d2-e197-41bb-a864-bb7cba647397, getTitle {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:28350, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12448, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:28350/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c072b2d2-e197-41bb-a864-bb7cba647397]]>
+              <![CDATA[expected [Guru99 Bank Home Page1] but found [Guru99 Bank Home Page]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: Dismissed user prompt dialog: User or Password is not valid: 
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [c072b2d2-e197-41bb-a864-bb7cba647397, getTitle {}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:28350, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 12448, moz:profile: C:\Users\pc\AppData\Local\T..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://127.0.0.1:28350/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: c072b2d2-e197-41bb-a864-bb7cba647397
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:131)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:680)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:684)
-at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:314)
-at pageobject.HomePage.getPageTitle(HomePage.java:24)
-at com.Day1.loginCheck(Day1.java:25)
+              <![CDATA[java.lang.AssertionError: expected [Guru99 Bank Home Page1] but found [Guru99 Bank Home Page]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+at org.testng.Assert.assertEquals(Assert.java:132)
+at org.testng.Assert.assertEquals(Assert.java:656)
+at org.testng.Assert.assertEquals(Assert.java:666)
+at com.Day1.loginCheck(Day1.java:40)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -67,11 +99,63 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCheck -->
+        <test-method signature="loginCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.Day1@5158b42f]" started-at="2024-01-05T19:06:27 IST" name="loginCheck" data-provider="dp" finished-at="2024-01-05T19:06:47 IST" duration-ms="19409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gmngr546405dsd]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sanEpYv]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Guru99 Bank Home Page]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ebd319f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginCheck -->
+        <test-method signature="loginCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.Day1@5158b42f]" started-at="2024-01-05T19:06:47 IST" name="loginCheck" data-provider="dp" finished-at="2024-01-05T19:07:04 IST" duration-ms="16681" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[gmngr54640dsds5]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sanEpYvds]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Guru99 Bank Home Page]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[org.testng.TestRunner@1ebd319f]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCheck -->
       </class> <!-- com.Day1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
