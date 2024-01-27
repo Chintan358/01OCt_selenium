@@ -17,8 +17,8 @@ import com.google.common.io.Files;
 
 public class Base {
 	
-	WebDriver driver;
-	public WebDriver driverSetUp()
+	public static WebDriver driver;
+	public static  WebDriver driverSetUp()
 	{
 		Properties prop = new Properties();
 		try {
@@ -30,7 +30,7 @@ public class Base {
 		}	
 		if(prop.getProperty("browser").equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver", "C:\\Chintan_work\\seleniumdata\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Chintan_work\\seleniumdata\\chromedriver-win64\\chromedriver.exe");
 			driver = new ChromeDriver();
 		}
 		else if(prop.getProperty("browser").equals("ff"))
@@ -44,7 +44,7 @@ public class Base {
 		return driver;
 	}
 	
-	public void getScreenShot(WebDriver driver, String imgname)
+	public void getScreenShot( String imgname)
 	{
 		
 		TakesScreenshot ts = (TakesScreenshot) driver;

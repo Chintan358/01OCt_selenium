@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="4" passed="3" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-05T19:05:51 IST" name="Suite" finished-at="2024-01-05T19:07:04 IST" duration-ms="72949">
+  <suite started-at="2024-01-19T18:57:43 IST" name="Suite" finished-at="2024-01-19T18:58:38 IST" duration-ms="55111">
     <groups>
     </groups>
-    <test started-at="2024-01-05T19:05:51 IST" name="Test" finished-at="2024-01-05T19:07:04 IST" duration-ms="72949">
+    <test started-at="2024-01-19T18:57:43 IST" name="Test" finished-at="2024-01-19T18:58:38 IST" duration-ms="55111">
       <class name="com.Day1">
-        <test-method signature="loginCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.Day1@5158b42f]" started-at="2024-01-05T19:05:51 IST" name="loginCheck" data-provider="dp" finished-at="2024-01-05T19:06:10 IST" duration-ms="19369" status="PASS">
+        <test-method signature="loginCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.Day1@16293aa2]" started-at="2024-01-19T18:57:43 IST" name="loginCheck" data-provider="dp" finished-at="2024-01-19T18:57:58 IST" duration-ms="14662" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -26,14 +26,14 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@1ebd319f]]>
+                <![CDATA[org.testng.TestRunner@7b02881e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCheck -->
-        <test-method signature="loginCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.Day1@5158b42f]" started-at="2024-01-05T19:06:10 IST" name="loginCheck" data-provider="dp" finished-at="2024-01-05T19:06:27 IST" duration-ms="17251" status="FAIL">
+        <test-method signature="loginCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.Day1@16293aa2]" started-at="2024-01-19T18:57:58 IST" name="loginCheck" data-provider="dp" finished-at="2024-01-19T18:58:11 IST" duration-ms="13052" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -52,7 +52,7 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@1ebd319f]]>
+                <![CDATA[org.testng.TestRunner@7b02881e]]>
               </value>
             </param>
           </params>
@@ -103,7 +103,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCheck -->
-        <test-method signature="loginCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.Day1@5158b42f]" started-at="2024-01-05T19:06:27 IST" name="loginCheck" data-provider="dp" finished-at="2024-01-05T19:06:47 IST" duration-ms="19409" status="PASS">
+        <test-method signature="loginCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.Day1@16293aa2]" started-at="2024-01-19T18:58:11 IST" name="loginCheck" data-provider="dp" finished-at="2024-01-19T18:58:24 IST" duration-ms="12398" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -122,14 +122,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@1ebd319f]]>
+                <![CDATA[org.testng.TestRunner@7b02881e]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginCheck -->
-        <test-method signature="loginCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.Day1@5158b42f]" started-at="2024-01-05T19:06:47 IST" name="loginCheck" data-provider="dp" finished-at="2024-01-05T19:07:04 IST" duration-ms="16681" status="PASS">
+        <test-method signature="loginCheck(java.lang.String,java.lang.String,java.lang.String,org.testng.ITestContext)[pri:0, instance:com.Day1@16293aa2]" started-at="2024-01-19T18:58:24 IST" name="loginCheck" data-provider="dp" finished-at="2024-01-19T18:58:38 IST" duration-ms="14649" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -148,7 +148,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
             </param>
             <param index="3">
               <value>
-                <![CDATA[org.testng.TestRunner@1ebd319f]]>
+                <![CDATA[org.testng.TestRunner@7b02881e]]>
               </value>
             </param>
           </params>

@@ -10,8 +10,8 @@ public class Day1Listener implements ITestListener {
 	@Override
 	public void onTestFailure(ITestResult result) {
 		 
-		WebDriver driver =(WebDriver)result.getTestContext().getAttribute("driver");
-		base.getScreenShot(driver,result.getName());
+		//WebDriver driver =(WebDriver)result.getTestContext().getAttribute("driver");
+		base.getScreenShot(result.getName());
 		
 	}
 }

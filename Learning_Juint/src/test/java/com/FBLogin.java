@@ -19,8 +19,6 @@ public class FBLogin {
 	
 	String username,password;
 	
-	
-	
 	public FBLogin(String username, String password) {
 		super();
 		this.username = username;

@@ -36,7 +36,7 @@ public class Day1 extends Base{
 		String actualTilte = home.getPageTitle();
 		
 		//assertTrue(title.equals("Manger Id : mngr546405"));
-		i.setAttribute("driver", driver);
+		//i.setAttribute("driver", driver);
 		assertEquals(actualTilte, expectedTitle);
 	}
 	
