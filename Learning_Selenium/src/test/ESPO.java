@@ -18,6 +18,10 @@ public class ESPO {
 		System.out.println(element.isDisplayed());
 		element.click();
 		
-		driver.findElement(By.name("email")).sendKeys("test@gmail.com");
+		driver.findElement(By.name("email")).sendKeys("Tech.Innovate@yopmail.com");
+		driver.findElement(By.name("password")).sendKeys("Sapient@123");
+		driver.findElement(By.xpath("//*[text()='Login']")).click();
+		
+		driver.findElement(By.linkText("CONTACT US")).click();
 	}
 }
