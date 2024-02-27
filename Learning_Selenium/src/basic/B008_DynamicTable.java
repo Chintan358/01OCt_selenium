@@ -29,7 +29,7 @@ public class B008_DynamicTable {
 //		 List<WebElement> data = driver.findElements(By.xpath("//table[@class='tsc_table_s13']/tfoot/tr/td"));
 //		 
 //		 int total = head.size()+data.size();
-//		 if(total==2)
+//		 if(  
 //		 {
 //			 System.out.println("pass");
 //		 }
