@@ -2,6 +2,8 @@ package maintest;
 
 
 
+import static org.junit.Assert.assertTrue;
+
 import org.testng.annotations.Test;
 
 import com.Base;
@@ -26,5 +28,6 @@ public class RegistrationTest extends Base{
 		sp.enterPass("Nirav@123");
 		sp.enterCpass("Nirav@123");
 		sp.clicksubmit();
+		assertTrue(false);
 	}
 }

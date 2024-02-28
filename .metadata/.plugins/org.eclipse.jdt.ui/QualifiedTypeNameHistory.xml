@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="org.junit.After"/>
-    <fullyQualifiedTypeName name="com.Calc"/>
-    <fullyQualifiedTypeName name="org.junit.runners.Parameterized.Parameters"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="org.junit.Test"/>
     <fullyQualifiedTypeName name="org.junit.runners.Parameterized"/>
@@ -33,8 +30,6 @@
     <fullyQualifiedTypeName name="pageobject.HomePage"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.Alert"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
-    <fullyQualifiedTypeName name="org.testng.ITestListener"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.TakesScreenshot"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
     <fullyQualifiedTypeName name="org.testng.ITestContext"/>
     <fullyQualifiedTypeName name="utill.DriverConnection"/>
@@ -49,10 +44,7 @@
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.util.Properties"/>
     <fullyQualifiedTypeName name="java.time.Duration"/>
-    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
-    <fullyQualifiedTypeName name="com.Base"/>
     <fullyQualifiedTypeName name="java.sql.Driver"/>
-    <fullyQualifiedTypeName name="pageobject.LandingPage"/>
     <fullyQualifiedTypeName name="pageobject.SignUp"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
@@ -60,4 +52,12 @@
     <fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="com.ExcellReader"/>
+    <fullyQualifiedTypeName name="org.testng.ITestListener"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.TakesScreenshot"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.OutputType"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="com.google.common.io.Files"/>
+    <fullyQualifiedTypeName name="com.Base"/>
+    <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
+    <fullyQualifiedTypeName name="pageobject.LandingPage"/>
 </qualifiedTypeNameHistroy>

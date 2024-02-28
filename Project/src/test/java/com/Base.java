@@ -1,18 +1,23 @@
 package com;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.time.Duration;
 import java.util.Properties;
 
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
+import com.google.common.io.Files;
+
 public class Base {
 	
-	public WebDriver driver;
+	public static WebDriver driver;
 	public WebDriver getDriver()
 	{
 		try {
@@ -48,5 +53,22 @@ public class Base {
 		}
 		
 		return driver;
+	}
+	
+	public void getScreenshot(String name)
+	{
+		TakesScreenshot ss  =(TakesScreenshot) driver;
+		File source = ss.getScreenshotAs(OutputType.FILE);
+		File dest = new File("C:\\Chintan_work\\Files\\"+name+".png");
+		
+		try 
+		{
+			Files.copy(source, dest);
+			System.out.println("Screenshot taken");
+		}
+		catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 }

@@ -2,6 +2,7 @@ package maintest;
 
 
 
+import static org.junit.Assert.assertTrue;
 import static org.testng.Assert.assertEquals;
 
 import org.testng.annotations.DataProvider;
@@ -15,6 +16,15 @@ import pageobject.SignIn;
 import pageobject.SignUp;
 
 public class LoginTest extends Base{
+	
+	@Test
+	public void demo()
+	{
+		driver = getDriver();
+		LandingPage l = new LandingPage(driver);
+		l.signUp();
+		assertTrue(false);
+	}
 	
 	@Test(dataProvider = "dp")
 	public void test(String uname, String pass,String title)
