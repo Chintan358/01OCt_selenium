@@ -29,25 +29,19 @@
     <fullyQualifiedTypeName name="pageobject.LoginPage"/>
     <fullyQualifiedTypeName name="pageobject.HomePage"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.Alert"/>
-    <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.chrome.ChromeDriver"/>
     <fullyQualifiedTypeName name="org.testng.ITestContext"/>
     <fullyQualifiedTypeName name="utill.DriverConnection"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.remote.DesiredCapabilities"/>
     <fullyQualifiedTypeName name="io.appium.java_client.AppiumDriver"/>
-    <fullyQualifiedTypeName name="io.appium.java_client.android.options.UiAutomator2Options"/>
-    <fullyQualifiedTypeName name="io.appium.java_client.android.AndroidDriver"/>
-    <fullyQualifiedTypeName name="java.net.URL"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.support.ui.Select"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebElement"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
     <fullyQualifiedTypeName name="java.util.Properties"/>
-    <fullyQualifiedTypeName name="java.time.Duration"/>
     <fullyQualifiedTypeName name="java.sql.Driver"/>
     <fullyQualifiedTypeName name="pageobject.SignUp"/>
     <fullyQualifiedTypeName name="org.openqa.selenium.WebDriver"/>
-    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
     <fullyQualifiedTypeName name="pageobject.SignIn"/>
     <fullyQualifiedTypeName name="org.testng.annotations.DataProvider"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
@@ -60,4 +54,10 @@
     <fullyQualifiedTypeName name="com.Base"/>
     <fullyQualifiedTypeName name="org.testng.annotations.Test"/>
     <fullyQualifiedTypeName name="pageobject.LandingPage"/>
+    <fullyQualifiedTypeName name="io.appium.java_client.android.options.UiAutomator2Options"/>
+    <fullyQualifiedTypeName name="io.appium.java_client.android.AndroidDriver"/>
+    <fullyQualifiedTypeName name="java.net.URL"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="java.lang.Thread"/>
+    <fullyQualifiedTypeName name="org.openqa.selenium.By"/>
 </qualifiedTypeNameHistroy>
